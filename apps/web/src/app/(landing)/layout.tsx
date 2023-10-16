@@ -1,7 +1,7 @@
-import { Logo } from '@/components/Logo';
 import Link from 'next/link';
 import { type ReactElement } from 'react';
 import { Button, buttonVariants, cn } from 'ui';
+import { Logo } from '@/components/Logo';
 
 interface LandingLayoutProps {
   children: React.ReactNode;
