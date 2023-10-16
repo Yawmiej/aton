@@ -1,12 +1,13 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { type ReactElement } from 'react';
-import { Container, Button, buttonVariants } from 'ui';
+import { Container, buttonVariants } from 'ui';
 
 export default function IndexPage(): ReactElement {
   return (
-    <>
-      <section className="h-full">
-        <Container className="container h-full">
+    <div className="h-[calc(100vh)] overflow-y-hidden">
+      <section>
+        <Container className="container">
           <div className="py-10 md:py-20">
             <div className="flex justify-between gap-2 md:gap-20 flex-col md:flex-row">
               <div className="">
@@ -19,9 +20,12 @@ export default function IndexPage(): ReactElement {
                   Translate your thoughts, sketches and product documentations
                   to hi-fidelity designs and reusable code in minutes.
                 </p>
-                <Button className={buttonVariants({ size: 'xl' })}>
+                <Link
+                  href="https://tally.so/r/nWRllL"
+                  className={buttonVariants({ size: 'xl' })}
+                >
                   Get Beta Access
-                </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -44,6 +48,6 @@ export default function IndexPage(): ReactElement {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

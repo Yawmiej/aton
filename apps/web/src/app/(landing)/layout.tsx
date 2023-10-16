@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { type ReactElement } from 'react';
-import { Button, buttonVariants, cn } from 'ui';
+import { buttonVariants, cn } from 'ui';
 import { Logo } from '@/components/Logo';
 
 interface LandingLayoutProps {
@@ -18,14 +18,15 @@ export default function LandingLayout({
             <Link href="/">
               <Logo />
             </Link>
-            <Button
+            <Link
+              href="https://tally.so/r/nWRllL"
               className={cn(
-                buttonVariants({ variant: 'outline' }),
+                buttonVariants({ variant: 'outline', size: 'xl' }),
                 'text-primary'
               )}
             >
               Get Beta Access
-            </Button>
+            </Link>
           </div>
         </div>
       </header>
