@@ -10,11 +10,12 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.25.4",
+    "database": "*",
+    "lucide-react": "^0.287.0",
     "next": "^13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "*",
-    "database": "*"
+    "ui": "*"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.19",

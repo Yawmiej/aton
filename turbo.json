@@ -23,8 +23,7 @@
     "check-types": {},
     "dev": {
       "cache": false,
-      "persistent": true,
-      "dependsOn": ["^db:generate"]
+      "persistent": true
     },
     "clean": {
       "cache": false
