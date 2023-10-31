@@ -21,7 +21,7 @@ export default function LandingLayout({
             <Link
               href="https://tally.so/r/nWRllL"
               className={cn(
-                buttonVariants({ variant: 'outline', size: 'xl' }),
+                buttonVariants({ variant: 'outline' }),
                 'text-primary'
               )}
             >
